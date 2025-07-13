@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café Ecuatoriano</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fdfcfb;
+      color: #333;
+    }
+    header {
+      background-color: #6f4e37;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #dbc2a9;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #6f4e37;
+      font-weight: bold;
+    }
+    main {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      color: #6f4e37;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.5rem;
+    }
+    p {
+      line-height: 1.8;
+    }
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 1rem;
+    }
+    .galeria div {
+      background-color: #eee;
+      height: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-style: italic;
+      color: #888;
+    }
+    footer {
+      background-color: #f1f1f1;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Café Ecuatoriano</h1>
+  </header>
+  <nav>
+    <a href="#historia">Historia</a>
+    <a href="#variedades">Variedades</a>
+    <a href="#beneficios">Beneficios</a>
+    <a href="#galeria">Galería</a>
+  </nav>
+  <main>
+    <section id="historia">
+      <h2>Historia</h2>
+      <p>La producción cafetera en Ecuador comenzó a florecer a principios del siglo XIX. Desde entonces, se ha convertido en una parte vital de la economía rural y la identidad cultural de regiones como Loja, Manabí y Pichincha.</p>
+    </section>
+    <section id="variedades">
+      <h2>Variedades</h2>
+      <p>El país cultiva principalmente variedades de café arábica como Typica y Bourbon, que ofrecen sabores suaves y fragantes. En zonas costeras también se encuentra café robusta, más fuerte y con mayor contenido de cafeína.</p>
+    </section>
+    <section id="beneficios">
+      <h2>Beneficios</h2>
+      <p>Una taza diaria de café ecuatoriano puede mejorar el enfoque, brindar antioxidantes y fomentar momentos de pausa y reflexión en el día. Además, apoyar a productores locales ayuda a conservar prácticas sostenibles.</p>
+    </section>
+    <section id="galeria">
+      <h2>Galería</h2>
+      <div class="galeria">
+        <div>Imagen 1</div>
+        <div>Imagen 2</div>
+        <div>Imagen 3</div>
+        <div>Imagen 4</div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Café del Ecuador — Una taza de identidad
+  </footer>
+</body>
+</html>
